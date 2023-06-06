@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: darkseagreen;
+}
+
+.dice-1, .dice-2{
+    background-color: rgb(119, 0, 0);
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.grid-container1{
+    display: grid;
+    padding: 15px;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.c1,.c6{
+    grid-column: span 2;
+}
+
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: wheat;
+}
+
+.flex-container1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.invisible{
+    background-color: rgb(119, 0, 0);
+}
